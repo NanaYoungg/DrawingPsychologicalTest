@@ -52,7 +52,7 @@
             android:orientation="vertical">
 
         <Button
-            android:id="@+id/lv1"
+            android:id="@+id/paint_v1"
             android:background="@drawable/main_btn_customise"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
             />
 
         <Button
-            android:id="@+id/lv2"
+            android:id="@+id/paint_v22"
             android:background="@drawable/main_btn_customise"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
