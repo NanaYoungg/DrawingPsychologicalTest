@@ -4,7 +4,11 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="redGrey">#91878a</color>
-    <color name="colorPink">#F27EA1</color>
+    <color name="colorPink">#f0bbcb</color>
     <color name="colorGrey">#302b2d</color>
     <color name="colorWhite">#ffffff</color>
+    <color name="colorBtn">#F27EA1</color>
+    <color name="colorBtnStroke">#e0658a</color>
+    <color name="colorBtnPress">#f0e85b</color>
+    <color name="colorBtnPressStroke">#dbd45a</color>
 </resources>
