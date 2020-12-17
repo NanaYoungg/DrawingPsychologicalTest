@@ -16,12 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".paint.ActivityPaint1"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".result.ResultActivity1"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".paint.ActivityPaint1"/>
+        <activity android:name=".result.ResultActivity1"/>
+        <activity android:name=".paint.ActivityPaint2"/>
+        <activity android:name=".result.ResultActivity2"/>
+        <activity android:name=".paint.ActivityPaint3"/>
+        <activity android:name=".result.ResultActivity3"/>
+        <activity android:name=".paint.ActivityPaint4"/>
+        <activity android:name=".result.ResultActivity4"/>
+        <activity android:name=".paint.ActivityPaint5"/>
+        <activity android:name=".result.ResultActivity5"/>
+        <activity android:name=".paint.ActivityPaint6"/>
+        <activity android:name=".result.ResultActivity6"/>
+        <activity android:name=".paint.ActivityPaint7"/>
+        <activity android:name=".result.ResultActivity7"/>
+        <activity android:name=".paint.ActivityPaint8"/>
+        <activity android:name=".result.ResultActivity8"/>
+
     </application>
 
 </manifest>

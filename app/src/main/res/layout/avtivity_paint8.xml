@@ -30,8 +30,10 @@
         android:layout_marginTop="60dp"
         android:layout_marginLeft="70dp"
         style="@style/explanation_tv"
-        android:text="따끈따끈 붕어빵을 받아든 당신.         어느 부위부터 먹을 것인가?"
+        android:text="치킨에서 가장 좋아하는 부위는?"
         />
+
+
 
 
     <ImageButton

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPink">
+
+    <ImageView
+        android:id="@+id/frame_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/frame"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="202dp"
+        android:layout_height="142.8dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintLeft_toLeftOf="@id/frame_iv"
+        app:layout_constraintTop_toTopOf="@id/frame_iv" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frame_iv"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="1. 눈을 너무 크게 그린 경우 "
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_tv"
+        android:text="눈이 크면 겁이 많다는 것.혹은 눈이 작다고 놀림 당한 사람이라면 큰 눈에 대한 갈망으로 눈을 아주 크게 그릴 수 있어요."
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv2"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="2. 눈을 너무 작게 그린 경우 "
+        />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv3"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_tv"
+        android:text="조심스러운 성격. 때로는 윙크를 하거나 웃다 보니 눈이 감긴 것과 같은 익살스러운 얼굴을 장난스럽게 그렸다고 해도 자신의 한 부분을 숨기기 위한 행동이라고 볼 수 있어요. "
+        />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv4"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="3. 두눈을 그리지 않은 경우 "
+        />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv5"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_tv"
+        android:text="자신의 속마음을 내보이고 싶지 않다는 의미."
+        />
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv6"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="4.눈꺼풀이나 속눈썹을 그린 경우"
+        />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv7"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_tv"
+        android:text="자신의 세련됨과 세심함을 나타내는 성격. 때로는 성적인 자신감을 표현한 것으로 해석되기도 합니다."/>
+
+    <ImageView
+        android:id="@+id/bottom_iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/retry_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_customise"
+        app:layout_constraintTop_toTopOf="@id/bottom_iv"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/bottom_iv"
+        android:layout_marginLeft="10dp"
+        style="@style/retry_tv"
+        android:text="@string/retry_name"
+        android:drawableLeft="@drawable/refresh_cutsome"
+        android:paddingLeft="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_customise"
+        app:layout_constraintTop_toTopOf="@id/bottom_iv"
+        android:layout_marginTop="15dp"
+        app:layout_constraintRight_toRightOf="@id/bottom_iv"
+        android:layout_marginRight="10dp"
+        style="@style/retry_tv"
+        android:text="@string/home_name"
+        android:drawableLeft="@drawable/home_custome"
+        android:paddingLeft="10dp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

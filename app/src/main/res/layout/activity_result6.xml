@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPink">
+
+    <ImageView
+        android:id="@+id/frame_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/frame"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="202dp"
+        android:layout_height="142.8dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintLeft_toLeftOf="@id/frame_iv"
+        app:layout_constraintTop_toTopOf="@id/frame_iv" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frame_iv"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="욕조 안에 물이 많이 차 있을 수록 성적 욕구가 강한 상태 ! "
+        />
+
+
+    <ImageView
+        android:id="@+id/bottom_iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/retry_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_customise"
+        app:layout_constraintTop_toTopOf="@id/bottom_iv"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/bottom_iv"
+        android:layout_marginLeft="10dp"
+        style="@style/retry_tv"
+        android:text="@string/retry_name"
+        android:drawableLeft="@drawable/refresh_cutsome"
+        android:paddingLeft="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_customise"
+        app:layout_constraintTop_toTopOf="@id/bottom_iv"
+        android:layout_marginTop="15dp"
+        app:layout_constraintRight_toRightOf="@id/bottom_iv"
+        android:layout_marginRight="10dp"
+        style="@style/retry_tv"
+        android:text="@string/home_name"
+        android:drawableLeft="@drawable/home_custome"
+        android:paddingLeft="10dp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

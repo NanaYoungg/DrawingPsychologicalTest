@@ -30,8 +30,10 @@
         android:layout_marginTop="60dp"
         android:layout_marginLeft="70dp"
         style="@style/explanation_tv"
-        android:text="따끈따끈 붕어빵을 받아든 당신.         어느 부위부터 먹을 것인가?"
+        android:text="산과 나무를 그려주세요."
         />
+
+
 
 
     <ImageButton

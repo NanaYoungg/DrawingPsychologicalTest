@@ -30,8 +30,11 @@
         android:layout_marginTop="60dp"
         android:layout_marginLeft="70dp"
         style="@style/explanation_tv"
-        android:text="따끈따끈 붕어빵을 받아든 당신.         어느 부위부터 먹을 것인가?"
+        android:text="어느날 당신의 사랑스러운 연인이 집으로 오라고 초대를 합니다.
+        초인종을 누른 당신! 이 때 집에서 누가 가장 먼저 나왔을까요?"
         />
+
+
 
 
     <ImageButton

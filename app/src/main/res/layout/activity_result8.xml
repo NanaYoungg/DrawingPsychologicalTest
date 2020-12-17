@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPink">
+
+    <ImageView
+        android:id="@+id/frame_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/frame"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="202dp"
+        android:layout_height="142.8dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorWhite"
+        app:layout_constraintLeft_toLeftOf="@id/frame_iv"
+        app:layout_constraintTop_toTopOf="@id/frame_iv" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frame_iv"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="1. 다리 "
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        style="@style/explanation_tv"
+        android:text="자신감이 넘치며 적극적인 타입. 자신의 소신대로 밀고 나가는 정열가입니다. "
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv2"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="2. 날개 "
+        />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv3"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_tv"
+        android:text="혼자 고독이나 명상을 즐기는 걸 좋아하는 타입. 낯을 가리는 성격이지만, 마음을 열면 모든 것을 털어놓는 타입입니다.  "
+        />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv4"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="3. 가슴 "
+        />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv5"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_tv"
+        android:text=" 육체적으로나 정신적으로 다른 사람에 비해 활발한 타입. 어떤 사람들과도 원만한 인간관계를 유지하는 편입니다."
+        />
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv6"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_title_tv"
+        android:text="4.  목 "
+        />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv7"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/explanation_tv"
+        android:text="좋고 싫음이 분명한 성격. 사람을 가려서 사귀는 경향이 있지만, 상대방을 존중하며 자기주장을 지나치게 하지는 않습니다."/>
+
+    <ImageView
+        android:id="@+id/bottom_iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/retry_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_customise"
+        app:layout_constraintTop_toTopOf="@id/bottom_iv"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="@id/bottom_iv"
+        android:layout_marginLeft="10dp"
+        style="@style/retry_tv"
+        android:text="@string/retry_name"
+        android:drawableLeft="@drawable/refresh_cutsome"
+        android:paddingLeft="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/home_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_customise"
+        app:layout_constraintTop_toTopOf="@id/bottom_iv"
+        android:layout_marginTop="15dp"
+        app:layout_constraintRight_toRightOf="@id/bottom_iv"
+        android:layout_marginRight="10dp"
+        style="@style/retry_tv"
+        android:text="@string/home_name"
+        android:drawableLeft="@drawable/home_custome"
+        android:paddingLeft="10dp"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

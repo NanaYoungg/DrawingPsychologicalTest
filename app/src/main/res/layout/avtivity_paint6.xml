@@ -30,8 +30,11 @@
         android:layout_marginTop="60dp"
         android:layout_marginLeft="70dp"
         style="@style/explanation_tv"
-        android:text="따끈따끈 붕어빵을 받아든 당신.         어느 부위부터 먹을 것인가?"
+        android:text="집에 들어가 씻으려고 욕실 문을 열었다.
+ 욕조 안에 물은 어느 정도로 차있나요?"
         />
+
+
 
 
     <ImageButton
