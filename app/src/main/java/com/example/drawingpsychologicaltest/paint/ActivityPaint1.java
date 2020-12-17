@@ -38,12 +38,8 @@ public class ActivityPaint1 extends AppCompatActivity {
             case R.id.normal:
                 paintView.normal();
                 return true;
-            case R.id.emboss:
-                return true;
-            case R.id.blur:
-                paintView.blur();
-                return true;
             case R.id.clear:
+                paintView.clear();
                 return true;
 
         }

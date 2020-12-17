@@ -33,10 +33,6 @@ public class PaintView extends View {
     private int currentColor;
     private int backgroundColor = DEFAULT_BG_COLOR;
     private int strokeWidth;
-    private boolean emboss;
-    private boolean blur;
-    private MaskFilter mEmboss;
-    private MaskFilter mBlur;
     private Bitmap mBitmap;
     private Canvas mCanvas;
     private Paint mBitmapPaint = new Paint(Paint.DITHER_FLAG);
@@ -59,8 +55,6 @@ public class PaintView extends View {
         mPaint.setXfermode(null);
         mPaint.setAlpha(0xff);
 
-        mEmboss = new EmbossMaskFilter(new float[] {1,1,1}, 0.4f, 6, 3.5f);
-        mBlur = new BlurMaskFilter(5, BlurMaskFilter.Blur.NORMAL);
     }
     public void init(DisplayMetrics metrics){
         int heigh = metrics.heightPixels;
@@ -73,13 +67,9 @@ public class PaintView extends View {
         strokeWidth = BRUSH_SIZE;
     }
     public void normal(){
-        emboss = false;
-        blur = false;
+
     }
-    public void blur(){
-        emboss = false;
-        blur = true;
-    }
+
     public void clear(){
         backgroundColor = DEFAULT_BG_COLOR;
         paths.clear();
@@ -96,11 +86,6 @@ public class PaintView extends View {
             mPaint.setStrokeWidth(fp.strokeWideth);
             mPaint.setMaskFilter(null);
 
-            if(fp.emboss)
-                mPaint.setMaskFilter(mEmboss);
-            else if(fp.blur)
-                mPaint.setMaskFilter(mBlur);
-
             mCanvas.drawPath(fp.path, mPaint);
         }
         canvas.drawBitmap(mBitmap, 0, 0, mBitmapPaint);
@@ -108,7 +93,7 @@ public class PaintView extends View {
     }
     private void touchStart(float x, float y){
         mPath = new Path();
-        FingerPath fp = new FingerPath(currentColor, emboss, blur, strokeWidth, mPath);
+        FingerPath fp = new FingerPath(currentColor, strokeWidth, mPath);
         paths.add(fp);
 
         mPath.reset();
@@ -140,6 +125,7 @@ public class PaintView extends View {
                 break;
             case MotionEvent.ACTION_MOVE:
                 touchMove(x, y);
+                invalidate(); //터치 이동중에도 그림 출력
                 break;
             case MotionEvent.ACTION_UP:
                 touchUp();
