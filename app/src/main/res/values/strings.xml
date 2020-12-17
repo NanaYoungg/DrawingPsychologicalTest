@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">쓱싹쓱싹 심리테스트</string>
+    <string name="done_name">완 성</string>
+    <style name="retry_name">다시하기</style>
+    <style name="home_name">홈으로</style>
 </resources>

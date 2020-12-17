@@ -1,26 +1,24 @@
-package com.example.drawingpsychologicaltest;
+package com.example.drawingpsychologicaltest.result;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
 
-import com.example.drawingpsychologicaltest.paint.ActivityPaint1;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.drawingpsychologicaltest.R;
+
+public class ResultActivity1 extends AppCompatActivity {
+
     private View mDecorView;
     private int	mUiOption;
-    private Button mbtn1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_result1);
 
         mDecorView = getWindow().getDecorView();
         mUiOption = getWindow().getDecorView().getSystemUiVisibility();
@@ -32,18 +30,6 @@ public class MainActivity extends AppCompatActivity {
             mUiOption |= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
 
         mDecorView.setSystemUiVisibility( mUiOption );
-
-        mbtn1 = (Button)findViewById(R.id.paint_btn1);
-        mbtn1.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(
-                        getApplicationContext(),
-                        ActivityPaint1.class);
-                startActivity(intent);
-
-            }
-        });
     }
+
 }

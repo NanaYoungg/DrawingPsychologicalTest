@@ -28,4 +28,15 @@
         <item name="android:shadowColor">#000000</item>
     </style>
 
+    <style name="done_tv">
+        <item name="android:textColor">@color/colorGreyLight</item>
+        <item name="android:fontFamily">@font/bazzi</item>
+        <item name="android:textSize">50dp</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowColor">#000000</item>
+    </style>
+
+
 </resources>

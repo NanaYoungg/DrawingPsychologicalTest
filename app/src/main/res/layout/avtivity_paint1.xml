@@ -6,12 +6,55 @@
     <com.example.drawingpsychologicaltest.PaintView
         android:id="@+id/paintview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-/>
+        android:layout_height="match_parent"/>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/colorBtn"/>
+        android:layout_height="230dp"
+        android:background="@color/colorPink"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:id="@+id/skechbook_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:background="@drawable/skechbook_pencil"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:id="@+id/eraser_img_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/skechbook_iv"
+        android:background="@drawable/eraser_icon"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/bottom_iv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPink"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_btn_customise"
+        android:layout_alignTop="@id/bottom_iv"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="@style/done_tv"
+        android:text="@string/done_name"
+        />
 
 </RelativeLayout>

@@ -53,7 +53,7 @@ public class PaintView extends View {
         mPaint.setStrokeJoin(Paint.Join.ROUND);
         mPaint.setStrokeCap(Paint.Cap.ROUND);
         mPaint.setXfermode(null);
-        mPaint.setAlpha(0xff);
+        mPaint.setAlpha(0xff);  //255
 
     }
     public void init(DisplayMetrics metrics){
