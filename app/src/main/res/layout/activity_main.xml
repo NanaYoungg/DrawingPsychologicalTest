@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@color/colorPink"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -45,7 +46,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@color/colorWhite"
-        android:scrollbars="none"
+        android:scrollbarThumbVertical="@drawable/scroll_custome"
+
         >
 
         <LinearLayout

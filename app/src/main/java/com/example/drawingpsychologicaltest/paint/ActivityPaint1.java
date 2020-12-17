@@ -44,6 +44,7 @@ public class ActivityPaint1 extends AppCompatActivity {
 
         mDecorView.setSystemUiVisibility( mUiOption );
 
+        //완성화면으로
         doneBtn = (Button)findViewById(R.id.done_btn);
         doneBtn.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -55,17 +56,15 @@ public class ActivityPaint1 extends AppCompatActivity {
 
             }
         });
-
+        //지우개 버튼
         mClearBtn = (ImageButton)findViewById(R.id.eraser_img_btn);
-
-
-
         mClearBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                paintView.clear();
             }
         });
+
 
         paintView = (PaintView)findViewById(R.id.paintview);
         DisplayMetrics metrics = new DisplayMetrics();
