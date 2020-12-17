@@ -3,6 +3,7 @@ package com.example.drawingpsychologicaltest.paint;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -20,7 +21,7 @@ import com.example.drawingpsychologicaltest.result.ResultActivity1;
 
 public class ActivityPaint1 extends AppCompatActivity {
     public PaintView paintView;
-    public Button doneBtn;
+    private Button mDoneBtn;
     private ImageButton mClearBtn;
 
     private View mDecorView;
@@ -44,14 +45,17 @@ public class ActivityPaint1 extends AppCompatActivity {
 
         mDecorView.setSystemUiVisibility( mUiOption );
 
-        //완성화면으로
-        doneBtn = (Button)findViewById(R.id.done_btn);
-        doneBtn.setOnClickListener(new View.OnClickListener(){
+        //완성화면으로, 그림결과 넘겨주기
+        mDoneBtn = (Button)findViewById(R.id.done_btn);
+        mDoneBtn.setOnClickListener(new View.OnClickListener(){
+
+
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(
                         getApplicationContext(),
                         ResultActivity1.class);
+
                 startActivity(intent);
 
             }
@@ -70,6 +74,7 @@ public class ActivityPaint1 extends AppCompatActivity {
         DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getRealMetrics(metrics);
         paintView.init(metrics);
+
     }
 
 //    public boolean onCreateOptionsMenu(Menu menu){

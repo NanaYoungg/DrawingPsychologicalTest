@@ -85,7 +85,6 @@ public class PaintView extends View {
             mPaint.setColor(fp.color);
             mPaint.setStrokeWidth(fp.strokeWideth);
             mPaint.setMaskFilter(null);
-
             mCanvas.drawPath(fp.path, mPaint);
         }
         canvas.drawBitmap(mBitmap, 0, 0, mBitmapPaint);

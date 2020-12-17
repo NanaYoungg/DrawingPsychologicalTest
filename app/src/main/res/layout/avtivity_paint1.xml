@@ -23,6 +23,26 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/skechbook_iv"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp"
+        style="@style/explanation_tv"
+        android:text="따끈따끈 붕어빵을 받아든 당신은 어느 부위부터 먹을 것인가?"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/skechbook_iv"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="70dp"
+        style="@style/explanation_tv"
+        android:text=" 1.머리   2.꼬리   3.배   4.지느러미"
+        />
+
 
     <ImageButton
         android:id="@+id/eraser_img_btn"

@@ -62,6 +62,8 @@
             android:layout_width="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
+            style="@style/retry_tv"
+            android:text="붕어빵"
             />
 
         <Button
@@ -71,6 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
+            style="@style/retry_tv"
             />
             <Button
                 android:id="@+id/paint_btn3"

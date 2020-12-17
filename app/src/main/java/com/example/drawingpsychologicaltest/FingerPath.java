@@ -2,7 +2,7 @@ package com.example.drawingpsychologicaltest;
 
 import android.graphics.Path;
 
-public class FingerPath {
+public class FingerPath  {
     public int color;
     public int strokeWideth;
     public Path path;
