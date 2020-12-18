@@ -26,11 +26,12 @@
 
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="wrap_content"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/frame_iv"
         android:layout_marginTop="60dp"
+        android:gravity="center"
         app:layout_constraintRight_toRightOf="parent"
         style="@style/explanation_title_tv"
         android:text="당신이 연인에게 빠지는 이유입니다. "

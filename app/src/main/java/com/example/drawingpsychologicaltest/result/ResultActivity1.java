@@ -58,6 +58,13 @@ public class ResultActivity1 extends AppCompatActivity {
             }
         });
     }
+//    Intent intent = getIntent();
+//    byte[] arr = getIntent().getByteArrayExtra("image");
+//    image = BitmapFactory.decodeByteArray(arr, 0, arr.length);
+//    ImageView BigImage = (ImageView)findViewById(R.id.BigImage);
+//BigImage.setImageBitmap(image);
+
+
 
 
 }
