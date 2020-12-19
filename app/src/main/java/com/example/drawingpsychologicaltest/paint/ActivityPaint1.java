@@ -77,14 +77,6 @@ public class ActivityPaint1 extends AppCompatActivity {
 
     }
 
-//    Intent intent = new Intent(getApplicationContext(), ImageActivity.class);
-//    Bitmap sendBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.god);
-//    ByteArrayOutputStream stream = new ByteArrayOutputStream();
-//sendBitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
-//    byte[] byteArray = stream.toByteArray();
-//intent.putExtra("image",byteArray);
-//    startActivity(intent);
-
 
 
 //    public boolean onCreateOptionsMenu(Menu menu){
