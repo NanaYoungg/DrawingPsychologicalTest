@@ -58,6 +58,6 @@ public class ResultActivity1 extends AppCompatActivity {
             }
         });
     }
-    
+//
 
 }
