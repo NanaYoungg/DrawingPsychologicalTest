@@ -1,12 +1,15 @@
-# :art:그림그리기 심리테스트 
+# :art:그림그리기 심리테스트   
 
-## :bulb:프로젝트 배경 및 개요
-### MZ 세대, 유튜브 등에서 심리테스트, MBTI테스트 등이 활발하게 유행하고 있다.
-### 본인 또한 MZ 세대이기 때문에 유행하는 심리테스트들을 접하였고, 관심이 가서 만든 애플리케이션이다.
+<br>   
+### MZ 세대, 유튜브 등에서 심리테스트, MBTI테스트 등이 활발하게 유행하고 있다.     
+### 본인 또한 MZ 세대이기 때문에 유행하는 심리테스트들을 접하였고, 관심이 가서 만든 애플리케이션이다.    
+
 <br>
 <br>
 
 ## :hammer:개발환경
+![Generic badge](https://img.shields.io/badge/platform-Mobile-green.svg) ![Generic badge](https://img.shields.io/badge/OS-Android-brightgreen.svg)
+![Generic badge](https://img.shields.io/badge/language-Java-red.svg)  
 
 <table class="tg">
 <thead>
