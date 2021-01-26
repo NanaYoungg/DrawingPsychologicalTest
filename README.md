@@ -11,31 +11,33 @@
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax">Name</th>
-    <th class="tg-0lax">Version</th>
+    <th class="tg-0pky">Name</th>
+    <th class="tg-0pky">Version</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-m9r4">Java</td>
-    <td class="tg-0lax">1.8.0_271</td>
+    <td class="tg-ncd7">Java</td>
+    <td class="tg-0pky">1.8.0_271</td>
   </tr>
   <tr>
-    <td class="tg-m9r4">Android</td>
-    <td class="tg-0lax">11.0 (R)&nbsp;&nbsp;/&nbsp;&nbsp;API level 30</td>
+    <td class="tg-ncd7">Android</td>
+    <td class="tg-0pky">11.0 (R)&nbsp;&nbsp;/&nbsp;&nbsp;API level 30</td>
   </tr>
   <tr>
-    <td class="tg-m9r4">Android Studio</td>
-    <td class="tg-0lax">4.0.1</td>
+    <td class="tg-ncd7">Android Studio</td>
+    <td class="tg-0pky">4.0.1</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Lottie</td>
+    <td class="tg-0lax">3.0.7</td>
   </tr>
 </tbody>
 </table>
 
-
 <br><br>
 ## :triangular_flag_on_post:결과 화면
 
-![full](https://user-images.githubusercontent.com/56735744/105862126-ca15f500-6032-11eb-8733-4e8ef91fc5ab.gif)
-
-
+![full](https://user-images.githubusercontent.com/56735744/105862126-ca15f500-6032-11eb-8733-4e8ef91fc5ab.gif)    
+![KakaoTalk_20210127_002739043](https://user-images.githubusercontent.com/56735744/105866341-3b57a700-6037-11eb-8f2f-dba5cecc798d.jpg)  ![KakaoTalk_20210127_002739043_01](https://user-images.githubusercontent.com/56735744/105866334-3a267a00-6037-11eb-85dc-3c143ac3bd57.jpg)  ![KakaoTalk_20210127_002739043_02](https://user-images.githubusercontent.com/56735744/105866339-3abf1080-6037-11eb-89ee-cf37ac7e5460.jpg)
 
